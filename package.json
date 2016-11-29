@@ -5,7 +5,8 @@
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jeremiah Senkpiel <fishrock123@rocketmail.com> (https://searchbeam.jit.su)",
-    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
+    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+    "Adam Ellsworth <adam.ellsworth@invintus.com> (http://invintus.com)"
   ],
   "license": "MIT",
   "keywords": [
@@ -13,9 +14,7 @@
     "types"
   ],
   "repository": "jshttp/mime-types",
-  "dependencies": {
-    "mime-db": "~1.25.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "3.10.2",
     "eslint-config-standard": "6.2.1",
