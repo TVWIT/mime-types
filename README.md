@@ -32,7 +32,19 @@ so open a PR there if you'd like to add mime types.
 ## API
 
 ```js
-var mime = require('mime-types')
+/*
+    custom-mime-db.js:
+
+    module.exports = {
+        "application/msword": {
+            "source": "iana",
+            "compressible": false,
+            "extensions": [ "doc", "dot"]
+        }
+    }
+ */
+var DB = require('./custom-mime-db.js');
+var mime = require('mime-types')(DB);
 ```
 
 All functions return `false` if input is invalid or not found.
